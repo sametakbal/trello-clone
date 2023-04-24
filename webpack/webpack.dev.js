@@ -96,8 +96,8 @@ module.exports = async options =>
         }
       ),
       new WebpackNotifierPlugin({
-        title: 'Trelloclone',
-        contentImage: path.join(__dirname, 'logo-jhipster.png'),
+        title: 'Trello',
+        contentImage: path.join(__dirname, 'logo.png'),
       }),
     ].filter(Boolean),
   });
